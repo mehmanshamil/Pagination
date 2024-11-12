@@ -80,13 +80,13 @@ const Pagination3 = () => {
 
       <div className="currentPage">
         <h4>
-          Sayfa: {currentPage} / {totalPage}
+          Sehife: {currentPage} / {totalPage}
         </h4>
       </div>
 
       <div className="pagination">
         <button onClick={prevPage} disabled={currentPage === 1}>
-          Önceki
+          Evvelki
         </button>
 
         {getPageNumbers().map((number, index) => (
