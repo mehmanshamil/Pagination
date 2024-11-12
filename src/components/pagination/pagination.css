@@ -38,3 +38,9 @@
         font-size: 1.5rem;
     }
 }
+
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
