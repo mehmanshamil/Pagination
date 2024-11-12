@@ -1,0 +1,16 @@
+.box{
+    width: 300px;
+     border-radius: 10px;
+     background-color: #f8f8f8;
+     overflow: hidden;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    h5{
+        margin: 1rem 0;
+    }
+    .content{
+        padding: 1rem;
+    }
+}
